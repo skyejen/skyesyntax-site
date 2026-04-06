@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Skye Syntax</title>
+
+<link rel="icon" type="image/png" href="favicon.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+<style>
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+html, body {
+margin: 0;
+}
+
+body {
+
+min-height: 100vh;
+
+padding: 80px 20px 40px;
+
+background:
+linear-gradient(
+115deg,
+#2b0040 0%,
+#070b1a 35%,
+#001a2a 65%,
+#003d55 100%
+);
+
+color: white;
+
+font-family: Raleway, sans-serif;
+
+display: flex;
+justify-content: center;
+
+position: relative;
+overflow: hidden;
+}
+
+/* subtle premium grain texture */
+body::after {
+
+content: "";
+
+position: fixed;
+
+inset: 0;
+
+pointer-events: none;
+
+opacity: 0.06;
+
+background-image:
+radial-gradient(#ffffff 1px, transparent 1px);
+
+background-size: 3px 3px;
+
+}
+
+.container {
+
+max-width: 720px;
+width: 100%;
+
+text-align: center;
+
+margin-top: 90px;
+
+}
+
+
+.logo {
+
+width: 118px;
+
+margin-bottom: 24px;
+
+filter: drop-shadow(0 0 14px rgba(0,85,255,0.45));
+
+}
+
+
+.brand {
+
+font-family: Montserrat, sans-serif;
+
+font-size: 42px;
+
+letter-spacing: 3px;
+
+margin-bottom: 12px;
+
+}
+
+
+.tagline {
+
+font-size: 18px;
+
+opacity: 0.9;
+
+margin-bottom: 18px;
+
+}
+
+
+.microcopy {
+
+font-size: 15px;
+
+opacity: 0.65;
+
+margin-bottom: 36px;
+
+line-height: 1.6;
+
+}
+
+
+/* CTA */
+
+.button {
+
+display: inline-block;
+
+padding: 17px 36px;
+
+border-radius: 14px;
+
+background: #0055ff;
+
+color: white;
+
+text-decoration: none;
+
+font-weight: 700;
+
+font-size: 17px;
+
+transition: 0.18s ease;
+
+box-shadow:
+
+0 8px 26px rgba(0,85,255,0.35),
+0 0 18px rgba(0,85,255,0.25);
+
+}
+
+.button:hover {
+
+transform: translateY(-2px);
+
+box-shadow:
+
+0 14px 40px rgba(0,85,255,0.45),
+0 0 26px rgba(0,85,255,0.35);
+
+}
+
+
+/* social icons */
+
+.socials {
+
+margin-top: 34px;
+
+display: flex;
+
+justify-content: center;
+
+gap: 18px;
+
+opacity: 0.75;
+
+}
+
+.socials a {
+
+display: inline-flex;
+
+transition: 0.2s;
+
+}
+
+.socials img {
+
+width: 22px;
+
+height: 22px;
+
+}
+
+.socials a:hover {
+
+opacity: 1;
+
+transform: translateY(-2px);
+
+}
+
+
+.footer {
+
+margin-top: 22px;
+
+font-size: 13px;
+
+opacity: 0.35;
+
+}
+
+
+@media (max-width: 600px) {
+
+body {
+padding: 60px 20px 30px;
+}
+
+.container {
+margin-top: 100px;
+}
+
+.brand {
+font-size: 30px;
+letter-spacing: 2px;
+}
+
+.tagline {
+font-size: 16px;
+}
+
+.microcopy {
+font-size: 14px;
+}
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<img src="logo.png" class="logo">
+
+
+<div class="brand">
+SKYE SYNTAX
+</div>
+
+
+<div class="tagline">
+Built with resilience. Compiled with care.
+</div>
+
+
+<div class="microcopy">
+
+human-readable mindset<br>
+
+compiled for progress
+
+</div>
+
+
+<a
+class="button"
+href="https://www.etsy.com/uk/shop/skyesyntax">
+
+Shop on Etsy
+
+</a>
+
+
+<div class="socials">
+
+<a href="https://www.instagram.com/skyesyntax/" target="_blank">
+<img src="instagram.svg">
+</a>
+
+<a href="https://www.tiktok.com/@skyesyntax" target="_blank">
+<img src="tiktok.svg">
+</a>
+
+<a href="https://www.linkedin.com/company/skyesyntax" target="_blank">
+<img src="linkedin.svg">
+</a>
+
+</div>
+
+
+<div class="footer">
+
+© Skye Syntax
+
+</div>
+
+
+</div>
+
+
+</body>
+
+</html>
